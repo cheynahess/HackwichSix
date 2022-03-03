@@ -32,10 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell?.textLabel?.text = text
         
+        //Subtitles code
+        
         cell?.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         
         return cell!
-        
         
         
     }
