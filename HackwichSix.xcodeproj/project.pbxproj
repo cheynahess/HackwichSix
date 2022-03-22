@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F45195C27E95384002CC7A3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F45195B27E95384002CC7A3 /* Property List.plist */; };
+		9F45196027E9591E002CC7A3 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45195F27E9591E002CC7A3 /* detailViewController.swift */; };
 		9FDEED1327D0A2540039A7D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEED1227D0A2540039A7D0 /* AppDelegate.swift */; };
 		9FDEED1527D0A2540039A7D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEED1427D0A2540039A7D0 /* SceneDelegate.swift */; };
 		9FDEED1727D0A2540039A7D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEED1627D0A2540039A7D0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F45195B27E95384002CC7A3 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		9F45195F27E9591E002CC7A3 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		9FDEED0F27D0A2540039A7D0 /* HackwichSix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichSix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDEED1227D0A2540039A7D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FDEED1427D0A2540039A7D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 				9FDEED1427D0A2540039A7D0 /* SceneDelegate.swift */,
 				9FDEED1627D0A2540039A7D0 /* ViewController.swift */,
 				9FDEED1827D0A2540039A7D0 /* Main.storyboard */,
+				9F45195F27E9591E002CC7A3 /* detailViewController.swift */,
 				9FDEED1B27D0A2560039A7D0 /* Assets.xcassets */,
+				9F45195B27E95384002CC7A3 /* Property List.plist */,
 				9FDEED1D27D0A2560039A7D0 /* LaunchScreen.storyboard */,
 				9FDEED2027D0A2560039A7D0 /* Info.plist */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				9FDEED1F27D0A2560039A7D0 /* LaunchScreen.storyboard in Resources */,
 				9FDEED1C27D0A2560039A7D0 /* Assets.xcassets in Resources */,
+				9F45195C27E95384002CC7A3 /* Property List.plist in Resources */,
 				9FDEED1A27D0A2540039A7D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				9FDEED1727D0A2540039A7D0 /* ViewController.swift in Sources */,
 				9FDEED1327D0A2540039A7D0 /* AppDelegate.swift in Sources */,
 				9FDEED1527D0A2540039A7D0 /* SceneDelegate.swift in Sources */,
+				9F45196027E9591E002CC7A3 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
